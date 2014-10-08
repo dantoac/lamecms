@@ -1,0 +1,167 @@
+/*
+        default.css
+        
+        Copyright 2009 Daniel Aguayo Catalán <daniel.aguayo@alumnos.inacap.cl>
+        
+        This program is free software; you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation; either version 2 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program; if not, write to the Free Software
+        Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+        MA 02110-1301, USA.
+*/
+* {margin:0; padding: 0; border:0;}
+
+.sysmsge {
+font:bold 1.5em verdana, sans;
+padding: 0 1em;
+display:none;
+text-align:center;	
+width:100%;
+clear:both;
+float:left;
+z-index:5999;
+position:fixed;
+bottom:0;
+left:0;
+}
+
+.systable {
+width:100%;
+margin:auto;
+background:#fff;
+color:#000;
+}
+
+.systable caption{
+background:#eee;
+border:1px solid black;
+padding:1em;
+}
+
+.systable td {
+border:1px solid silver;
+text-align:center;
+}
+
+.systable tr:hover{
+background:#ddd;
+}
+
+.error {
+color:white;
+background:red;
+
+}
+
+.alerta {
+color:black;
+background:yellow;	
+
+}	
+
+.ok {
+color:white;
+background:green;
+
+}
+
+html,body {
+	margin:0;
+	padding:0;
+}
+
+/* Panel por Defecto */
+
+.sysPanel {
+width:100%;
+position:fixed;
+left:0;
+font:normal 1em verdana, sans-serif;	
+color:white;
+z-index:999;
+}
+
+#sysTopPanel {
+top:0;
+background:black;
+}
+
+#onsession_name {
+color:yellow;
+font-variant:normal;
+font-weight:bold;
+}
+
+#desktop {
+margin:auto;
+}
+
+input {
+border:1px solid #ccc;
+margin:.3em;
+background:#eee;
+color:blue;}
+
+div.formulario {
+text-align:center;
+padding:1em;
+color:#000;
+background:#fff;
+}
+
+div.formulario > form {
+display:none;
+}
+
+.msge_head{
+text-align:center;
+}
+
+.msge_title {
+}
+
+.msge_title a{
+
+}
+
+.msge_info {
+
+}
+
+.msge_autor {
+	
+text-align:right;
+}
+
+.msge_id {
+display:none;
+}
+
+.msge_body {
+
+}
+
+.msge_body img {
+display:block;
+}
+
+.msge_foot {
+text-align:right;
+}
+
+.msge_foot a{
+margin:0 .5em;
+}
+
+.msge_foot a:hover{
+text-decoration:underline;
+}
